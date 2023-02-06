@@ -31,11 +31,11 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                   onTapUp: () => HapticFeedback.vibrate(),
                   onTapDown: () => HapticFeedback.vibrate(),
                   child: Padding(
-                    padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
-                      children: [
-                        const Text("Elevated NeoPOP Button"),
+                      children: const [
+                        Text('Elevated NeoPOP Button'),
                       ],
                     ),
                   ),
@@ -53,7 +53,7 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: const [
-                        Text("Flat NeoPOP Button"),
+                        Text('Flat NeoPOP Button'),
                       ],
                     ),
                   ),
@@ -65,7 +65,7 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                     padding:
                         EdgeInsets.symmetric(horizontal: 100, vertical: 15),
                     child: Text(
-                      "Shimmer NeoPOP Button",
+                      'Shimmer NeoPOP Button',
                       style: TextStyle(color: Colors.white),
                     ),
                   ),
@@ -85,7 +85,7 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: const [
-                        Text("Flat Strokes NeoPOP Button",
+                        Text('Flat Strokes NeoPOP Button',
                             style: TextStyle(color: Colors.white)),
                       ],
                     ),
@@ -112,7 +112,7 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: const [
-                        Text("Elevated Strokes NeoPOP Button",
+                        Text('Elevated Strokes NeoPOP Button',
                             style: TextStyle(color: Colors.white)),
                       ],
                     ),
@@ -136,7 +136,7 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                         padding: EdgeInsets.symmetric(
                             horizontal: 8.0, vertical: 15.0),
                         child: Text(
-                          "Adjacent Vertically Aligned",
+                          'Adjacent Vertically Aligned',
                           style: TextStyle(color: Colors.white),
                         ),
                       ),
@@ -148,7 +148,7 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                       child: const Padding(
                         padding: EdgeInsets.symmetric(
                             horizontal: 8.0, vertical: 15.0),
-                        child: Text("NeoPOP Buttons"),
+                        child: Text('NeoPOP Buttons'),
                       ),
                     ),
                   ],
@@ -167,7 +167,7 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                           child: Padding(
                             padding: EdgeInsets.symmetric(
                                 horizontal: 8.0, vertical: 15.0),
-                            child: Text("Adjacent Horizontally Aligned"),
+                            child: Text('Adjacent Horizontally Aligned'),
                           ),
                         ),
                       ),
@@ -189,7 +189,7 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                             padding: EdgeInsets.symmetric(
                                 horizontal: 8.0, vertical: 15.0),
                             child: Text(
-                              "NeoPOP Buttons",
+                              'NeoPOP Buttons',
                               style: TextStyle(color: Colors.white),
                             ),
                           ),

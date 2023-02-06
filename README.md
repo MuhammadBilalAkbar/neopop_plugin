@@ -1,4 +1,4 @@
-## 1. Research: neopop_package
+## 1. Research: NeoPOP Package
 
 - Keywords:
     - NeoPOP in flutter
