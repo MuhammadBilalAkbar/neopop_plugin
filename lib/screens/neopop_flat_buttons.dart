@@ -31,7 +31,10 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                   onTapUp: () => HapticFeedback.vibrate(),
                   onTapDown: () => HapticFeedback.vibrate(),
                   child: Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 15),
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 20,
+                      vertical: 15,
+                    ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: const [
@@ -49,7 +52,9 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                   buttonPosition: Position.center,
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 15),
+                      horizontal: 20,
+                      vertical: 15,
+                    ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: const [
@@ -62,8 +67,10 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                 const NeoPopShimmer(
                   shimmerColor: Colors.yellow,
                   child: Padding(
-                    padding:
-                        EdgeInsets.symmetric(horizontal: 100, vertical: 15),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 100,
+                      vertical: 15,
+                    ),
                     child: Text(
                       'Shimmer NeoPOP Button',
                       style: TextStyle(color: Colors.white),
@@ -77,16 +84,24 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                   onTapUp: () {},
                   border: const Border.fromBorderSide(
                     BorderSide(
-                        color: kBorderColorWhite, width: kButtonBorderWidth),
+                      color: kBorderColorWhite,
+                      width: kButtonBorderWidth,
+                    ),
                   ),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 15),
+                      horizontal: 20,
+                      vertical: 15,
+                    ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: const [
-                        Text('Flat Strokes NeoPOP Button',
-                            style: TextStyle(color: Colors.white)),
+                        Text(
+                          'Flat Strokes NeoPOP Button',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -108,12 +123,18 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                   ),
                   child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 15),
+                      horizontal: 20,
+                      vertical: 15,
+                    ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: const [
-                        Text('Elevated Strokes NeoPOP Button',
-                            style: TextStyle(color: Colors.white)),
+                        Text(
+                          'Elevated Strokes NeoPOP Button',
+                          style: TextStyle(
+                            color: Colors.white,
+                          ),
+                        ),
                       ],
                     ),
                   ),
@@ -134,7 +155,9 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                       ),
                       child: const Padding(
                         padding: EdgeInsets.symmetric(
-                            horizontal: 8.0, vertical: 15.0),
+                          horizontal: 8.0,
+                          vertical: 15.0,
+                        ),
                         child: Text(
                           'Adjacent Vertically Aligned',
                           style: TextStyle(color: Colors.white),
@@ -147,7 +170,9 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                       onTapUp: () {},
                       child: const Padding(
                         padding: EdgeInsets.symmetric(
-                            horizontal: 8.0, vertical: 15.0),
+                          horizontal: 8.0,
+                          vertical: 15.0,
+                        ),
                         child: Text('NeoPOP Buttons'),
                       ),
                     ),
@@ -166,7 +191,9 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                         child: const Center(
                           child: Padding(
                             padding: EdgeInsets.symmetric(
-                                horizontal: 8.0, vertical: 15.0),
+                              horizontal: 8.0,
+                              vertical: 15.0,
+                            ),
                             child: Text('Adjacent Horizontally Aligned'),
                           ),
                         ),
@@ -187,10 +214,14 @@ class _NeoPopFlatButtonsState extends State<NeoPopFlatButtons> {
                         child: const Center(
                           child: Padding(
                             padding: EdgeInsets.symmetric(
-                                horizontal: 8.0, vertical: 15.0),
+                              horizontal: 8.0,
+                              vertical: 15.0,
+                            ),
                             child: Text(
                               'NeoPOP Buttons',
-                              style: TextStyle(color: Colors.white),
+                              style: TextStyle(
+                                color: Colors.white,
+                              ),
                             ),
                           ),
                         ),

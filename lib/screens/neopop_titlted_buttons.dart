@@ -57,14 +57,23 @@ class NeoPopTiltedButtons extends StatelessWidget {
                     plunkColor: Color(0xFF3F6915),
                     shadowColor: Colors.black,
                     border: Border.fromBorderSide(
-                      BorderSide(color: Color(0xFF8DD04A), width: 1),
+                      BorderSide(
+                        color: Color(0xFF8DD04A),
+                        width: 1,
+                      ),
                     ),
                   ),
                   child: const Padding(
-                    padding:
-                        EdgeInsets.symmetric(horizontal: 70.0, vertical: 15),
-                    child: Text('Strokes NeoPopTiltedButton',
-                        style: TextStyle(color: Colors.white)),
+                    padding: EdgeInsets.symmetric(
+                      horizontal: 70.0,
+                      vertical: 15,
+                    ),
+                    child: Text(
+                      'Strokes NeoPopTiltedButton',
+                      style: TextStyle(
+                        color: Colors.white,
+                      ),
+                    ),
                   ),
                 ),
                 const SizedBox(height: kLargeHeight),
