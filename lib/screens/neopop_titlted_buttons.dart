@@ -14,7 +14,7 @@ class NeoPopTiltedButtons extends StatelessWidget {
           centerTitle: true,
         ),
         body: Container(
-          color: Colors.black,
+          color: Colors.black87,
           child: Center(
             child: Column(
               children: [
@@ -23,10 +23,8 @@ class NeoPopTiltedButtons extends StatelessWidget {
                   color: kPrimaryButtonColor,
                   onTapUp: () {},
                   child: const Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: 80.0,
-                      vertical: 15,
-                    ),
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 80.0, vertical: 15),
                     child: Text('Non Floating NeoPopTiltedButton'),
                   ),
                 ),
@@ -41,10 +39,8 @@ class NeoPopTiltedButtons extends StatelessWidget {
                     shadowColor: kTiltedButtonShadowColor,
                   ),
                   child: const Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: 70.0,
-                      vertical: 15,
-                    ),
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 70.0, vertical: 15),
                     child: Text('Floating NeoPopTiltedButton'),
                   ),
                 ),
@@ -57,22 +53,15 @@ class NeoPopTiltedButtons extends StatelessWidget {
                     plunkColor: Color(0xFF3F6915),
                     shadowColor: Colors.black,
                     border: Border.fromBorderSide(
-                      BorderSide(
-                        color: Color(0xFF8DD04A),
-                        width: 1,
-                      ),
+                      BorderSide(color: Color(0xFF8DD04A), width: 1),
                     ),
                   ),
                   child: const Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: 70.0,
-                      vertical: 15,
-                    ),
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 70.0, vertical: 15),
                     child: Text(
                       'Strokes NeoPopTiltedButton',
-                      style: TextStyle(
-                        color: Colors.white,
-                      ),
+                      style: TextStyle(color: Colors.white),
                     ),
                   ),
                 ),
@@ -87,10 +76,8 @@ class NeoPopTiltedButtons extends StatelessWidget {
                     showShimmer: true,
                   ),
                   child: const Padding(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: 70.0,
-                      vertical: 15,
-                    ),
+                    padding:
+                        EdgeInsets.symmetric(horizontal: 70.0, vertical: 15),
                     child: Text('Shimmer NeoPopTiltedButton'),
                   ),
                 ),
@@ -100,4 +87,3 @@ class NeoPopTiltedButtons extends StatelessWidget {
         ),
       );
 }
-
